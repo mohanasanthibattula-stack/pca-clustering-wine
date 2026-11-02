@@ -24,7 +24,7 @@ This document catalogs each required proof deliverable, its location within the 
 | **Interactive 3D Visualization** | `reports/figures/3d_cluster_projection.html` | **VERIFIED** | Open in browser for full 360-degree rotation and sample inspection (Plotly HTML) |
 | **Clusters vs. Cultivars Comparison** | `reports/figures/09_clusters_vs_cultivars.png` | **VERIFIED** | Inspect side-by-side K-Means clusters vs true botanical cultivars (150 DPI) |
 | **Environment Specifications** | `reports/proof/environment.txt` | **VERIFIED** | `pip freeze` pinned packages matching `requirements.txt` |
-| **CI Automation Workflow** | `.github/workflows/ci.yml` | **PENDING** | GitHub Actions CI workflow execution on `main` push |
+| **CI Automation Workflow** | `.github/workflows/ci.yml` | **PASSED** (Run ID [41403036402](https://github.com/mohanasanthibattula-stack/pca-clustering-wine/actions/runs/41403036402)) | GitHub Actions CI workflow passed on `main` push (`gh run view 41403036402`) |
 
 ---
 
