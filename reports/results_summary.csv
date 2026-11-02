@@ -1,0 +1,5 @@
+Algorithm,Hyperparameters,Clusters Found,Noise Points,Noise (%),Silhouette Score
+K-Means,"k=3, n_init=10, random_state=42",3,0,0.0,0.2848589191898987
+Hierarchical (Ward),"linkage=ward, n_clusters=3",3,0,0.0,0.2774439826952265
+DBSCAN,"eps=2.25, min_samples=5",2,46,25.84,0.3371
+DBSCAN,"eps=2.00, min_samples=5",5,85,47.75,0.2405
